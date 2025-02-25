@@ -27,4 +27,4 @@ const NewPrice = TotalPrice - ((TotalPrice * Sale) / 100);
 console.log(NewPrice);
   
 // - L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
-
+console.log(`Totale: ${NewPrice.toFixed(2)} €`);
