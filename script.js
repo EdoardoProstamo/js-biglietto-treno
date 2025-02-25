@@ -1,14 +1,15 @@
 // Chiedere i dati all'utente
 const userKm = parseFloat (prompt('Totalekm'));
+console.log(userKm);
 const userAge = prompt('Età');
-
-
-
+console.log(userAge);
 
 // - il prezzo del biglietto è definito in base ai km (0.21 € al km)
 //     - prezzo biglietto = 0,21€ * 1Km 
-
-
+const priceKm = 0.21;
+console.log(priceKm);
+const TotalPrice = priceKm * userKm ;
+console.log(TotalPrice);
 
 
 
