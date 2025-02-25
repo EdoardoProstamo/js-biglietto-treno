@@ -11,24 +11,23 @@ console.log(priceKm);
 const TotalPrice = priceKm * userKm ;
 console.log(TotalPrice);
 
-
-
 //     - lo sconto iniziale è pari a 0 
-
-
-
-
+let Sale = 0
 
 // - va applicato uno sconto del 20% per i minorenni
 //     - sconto per le persone con età < 18 anni = 20%
-
+if (userAge<18) {
+    Sale = 20;
+}
 
 
 
 
 // - va applicato uno sconto del 40% per gli over 65
 //     - sconto per le persone con età > 65 anni = 40%
-
+if (userAge>65) {
+    Sale = 40;
+}
 
 
 
